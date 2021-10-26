@@ -12,7 +12,6 @@ namespace RomanKhodakovHomeWork
         private GameObject _endGame;
         private Canvas _canvas;
         private Button _restartButton;
-        //private GameObject _bonuse;
         public Player GetPlayer
         {
             get
@@ -74,22 +73,6 @@ namespace RomanKhodakovHomeWork
                 return _endGame;
             }
         }
-        //public GameObject Bonuse
-        //{
-        //    get
-        //    {
-        //        if (_bonuse == null)
-        //        {
-        //            var gameObject = Resources.Load<GameObject>("UI/Bonuse");
-        //            _bonuse = Object.Instantiate(gameObject, Canvas.transform);
-        //        }
-
-        //        return _bonuse;
-        //    }
-        //}
-
-
-
     }
 }
 

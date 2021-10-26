@@ -21,7 +21,6 @@ namespace RomanKhodakovHomeWork
         {
             OnPointGoodChange.Invoke(_newGoodSpeed);
             Log($"Your speed now is {_newGoodSpeed}");
-            // Add bonus
         }
         public void Flying()
         {

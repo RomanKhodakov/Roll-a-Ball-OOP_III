@@ -9,7 +9,6 @@ namespace RomanKhodakovHomeWork
 		private Color _lineColor = Color.red;
 		[SerializeField, Range(0.1f, 5.0f)] private float _radius = 0.5f;
 
-		// OnDrawGizmosSelected()
 		private void OnDrawGizmos()
 		{
 			var nodes = GetComponentsInChildren<Transform>().Skip(1).Select(t => t.position).ToArray();
